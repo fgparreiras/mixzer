@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixzer</title>
+    <link rel="shortcut icon" type="imagex/png" href="assets/icons/weblogo.png">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="vars.css">
+    <link rel="stylesheet" href="sidebar-footer.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="sidebar">
+        
+        <nav class="sidebar_navigation">
+            <div class="logo">
+                <a href="">
+                    <img src="./assets/icons/Frame 6.png" alt="logo spotify">
+                </a>
+            </div>
+            <ul>
+                <li class="alinhamento1">
+                    <a href="">
+                        <img class="pngbt" src="assets/icons/house-chimney-solid 1.png" alt="home icon" />
+                        <span>Início</span>
+                    </a>
+                </li>
+                <li class="alinhamento2">
+                    <a href="">
+                        <img class="pngbt" src="assets/icons/magnifying-glass-solid 1.png" alt="search icon" />
+                        <span>Buscar</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="library">
+            
+            <div class="library__content">
+                <button class="library__button">
+                    <img class="bigicon" src="assets/icons/lucide_library-big.png" alt="library icon">
+                    <span class="bigtext" >Sua Biblioteca</span>
+                </button>
+                <img class="add-icon" src="assets/icons/AddOutlined.png" alt="add icon">
+            </div>
+
+            <section class="section-playlist">
+                <div class="section-playlist__content">
+                    <span class="text__title">
+                        Crie sua playlist
+                    </span>
+                    <span class="text__subtitle">
+                        É fácil, vamos te ajudar
+                    </span>
+                    <button class="section-playlist__button">
+                        <span>Criar playlist</span>
+                    </button>
+                </div>
+            </section>
+        
+            <div class="cookies">
+                <a href="">cookies</a>
+            </div>
+            
+            <div class="languages">
+                <button class="languages__button">
+                    <img class="pngbt" src="assets/icons/world.png" alt="icon world">
+                    <span class="languages__text">Portugês do Brasil</span>
+                </button>
+            </div>
+
+        </div>
+    
+    </div>
+    <div class="footer">
+        <div class="footer__text">
+            <span class="footer__title">TESTAR O PREMIUM DE GRAÇA</span>
+            <span class="footer__subtitle">Increva-se para ouvir músicas ilimitadas e podcasts só cum alguns anúncios. Não precisa de cartão de crédito.</span>
+        </div>
+        <button class="footer__bt">Inscreva-se grátis</button>
+    </div>
+
+  <main>
+    <div class="main-container">
+
+      <nav class="header__navigation">
+
+        <div class="left-navigation">
+          <div class="navigation">
+            <button class="arrow-left">
+              <img src="assets/icons/small-left.png" alt="seta esquerda">
+            </button>
+            <button class="arrow-left">
+              <img src="assets/icons/small-right.png" alt="seta direita">
+            </button>
+          </div>
+
+          <div class="header__search">
+            <img src="assets/icons/search.png" alt="">
+            <input id="search-input" type="text" maxlength="800" placeholder="O que você quer ouvir?">
+          </div>
+
+          </div>
+            <div class="header__login">
+              <button class="subscribe">Inscreva-se</button>
+              <button class="login">Entrar</button>
+            </div>
+
+      </nav>
+
+      <div class="main-card">
+
+        <div class="greeting">
+          <span class="greeting__title">Boa tarde</span>
+          <span class="greeting__subtitle">Navegar por todas as seções</span>
+        </div>
+
+        <div class="genre-cards">
+
+          <div class="card card-1">
+            <span class="card-title">Feito para você</span>
+            <img class="albumcover" src="assets/img/3.jpeg" alt="capa album">
+          </div>
+          <div class="card card-2">
+            <span class="card-title">Pop music</span>
+            <img class="albumcover" src="assets/img/2.png" alt="capa album">
+          </div>
+          <div class="card card-3">
+            <span class="card-title">Pagode</span>
+            <img class="albumcover" src="assets/img/8.jpeg" alt="capa album">
+          </div>
+          <div class="card card-4">
+            <span class="card-title">Funk</span>
+            <img class="albumcover" src="assets/img/9.jpeg" alt="capa album">
+          </div>
+          <div class="card card-5">
+            <span class="card-title">Rock</span>
+            <img class="albumcover" src="assets/img/11.jpeg" alt="capa album">
+          </div>
+          <div class="card card-6">
+            <span class="card-title">Indie</span>
+            <img class="albumcover" src="assets/img/13.jpeg" alt="capa album">
+          </div>
+          <div class="card card-7">
+            <span class="card-title">Lo-fi</span>
+            <img class="albumcover" src="assets/img/14.jpeg" alt="capa album">
+          </div>
+          <div class="card card-8">
+            <span class="card-title">Hip-hop</span>
+            <img class="albumcover" src="assets/img/12.jpeg" alt="capa album">
+          </div>
+          <div class="card card-9">
+            <span class="card-title">Sertanejo</span>
+            <img class="albumcover" src="assets/img/7.jpeg" alt="capa album">
+          </div>
+
+        </div>
+      </div>
+
+      <div class="all-artists">
+
+        <div>
+          <span class="artist-title">Artistas populares</span>
+        </div>
+
+        <div class="artistroll">
+
+          <div class="artist">
+            <img class="artistimg" src="assets/img/artists/taylor.png">
+            <span class="artistname">Taylor Swift</span>
+            <div class="escutarbt">
+              <span class="escutar-text" >Escutar</span>
+              <img class="pngbt" src="assets/icons/clarity_play-solid.png">
+            </div>
+          </div>
+
+          <div class="artist">
+            <img class="artistimg" src="assets/img/artists/nivs.png">
+            <span class="artistname">Gusttavo Lima</span>
+            <div class="escutarbt">
+              <span class="escutar-text" >Escutar</span>
+              <img class="pngbt" src="assets/icons/clarity_play-solid.png">
+            </div>
+          </div>
+
+          <div class="artist">
+            <img class="artistimg" src="assets/img/artists/cintage.png">
+            <span class="artistname">Vintage Culture</span>
+            <div class="escutarbt">
+              <span class="escutar-text" >Escutar</span>
+              <img class="pngbt" src="assets/icons/clarity_play-solid.png">
+            </div>
+          </div>
+
+          <div class="artist">
+            <img class="artistimg" src="assets/img/artists/adele.png">
+            <span class="artistname">Adele</span>
+            <div class="escutarbt">
+              <span class="escutar-text" >Escutar</span>
+              <img class="pngbt" src="assets/icons/clarity_play-solid.png">
+            </div>
+          </div>
+
+          <div class="artist">
+            <img class="artistimg" src="assets/img/artists/billie.png">
+            <span class="artistname">Billie Eilish</span>
+            <div class="escutarbt">
+              <span class="escutar-text" >Escutar</span>
+              <img class="pngbt" src="assets/icons/clarity_play-solid.png">
+            </div>
+          </div>
+
+          <div class="artist">
+            <img class="artistimg" src="assets/img/artists/tai.png">
+            <span class="artistname">Tai Verdes</span>
+            <div class="escutarbt">
+              <span class="escutar-text" >Escutar</span>
+              <img class="pngbt" src="assets/icons/clarity_play-solid.png">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>   
+  </main>
+    
+</body>
+</html>
